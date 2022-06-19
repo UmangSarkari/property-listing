@@ -1,0 +1,18 @@
+export const STRINGS = {
+  INPUT_CSV: "Please input a csv file",
+  NO_DATA_CSV: "No data found in CSV file",
+  CSV_COLUMNS: "CSV file should have only 4 columns",
+  ADDRESS_REQUIRED: "Address is required.",
+  BEDROOM_VALIDATION: "Bedroom should be in range 1-10.",
+  BATHROOM_VALIDATION: "Bathroom should be in range 1-5.",
+  ADDRESS: "Address",
+  ENTER_ADDRESS: "Enter your address here",
+  BEDROOM: "Bedroom",
+  ENTER_BEDROOMS: "Enter number of bedrooms",
+  BATHROOM: "Bathroom",
+  ENTER_BATHROOM: "Enter number of bathrooms",
+  DESCRIPTION: "Description (Optional)",
+  ENTER_DESCRIPTION: "Enter description",
+  SELECT_IMAGE: "Please select an image.",
+  DRAG_DROP: "Drag 'n' drop images here or Click below to select",
+};

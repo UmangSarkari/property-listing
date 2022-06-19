@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Step2 Correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="makeStyles-step2-5"
+    id="step2"
+  >
+    <div
+      class="MuiFormControl-root MuiFormControl-fullWidth"
+    >
+      <label
+        class="MuiFormLabel-root MuiFormLabel-filled"
+      >
+        <p
+          class="MuiTypography-root makeStyles-label-4 MuiTypography-body1"
+        >
+          Address
+        </p>
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root makeStyles-input-3 MuiInputBase-fullWidth MuiInputBase-formControl"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiOutlinedInput-input"
+            id="address"
+            placeholder="Enter your address here"
+            type="text"
+            value="Sothe Africa"
+          />
+          <fieldset
+            aria-hidden="true"
+            class="PrivateNotchedOutline-root-7 MuiOutlinedInput-notchedOutline"
+            style="padding-left: 8px;"
+          >
+            <legend
+              class="PrivateNotchedOutline-legend-8"
+              style="width: 0.01px;"
+            >
+              <span>
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </label>
+    </div>
+    <div
+      class="MuiFormControl-root MuiFormControl-fullWidth"
+    >
+      <label
+        class="MuiFormLabel-root MuiFormLabel-filled"
+      >
+        <p
+          class="MuiTypography-root makeStyles-label-4 MuiTypography-body1"
+        >
+          Bedroom
+        </p>
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root makeStyles-input-3 MuiInputBase-fullWidth MuiInputBase-formControl"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiOutlinedInput-input"
+            id="bedroom"
+            placeholder="Enter number of bedrooms"
+            type="number"
+            value="4"
+          />
+          <fieldset
+            aria-hidden="true"
+            class="PrivateNotchedOutline-root-7 MuiOutlinedInput-notchedOutline"
+            style="padding-left: 8px;"
+          >
+            <legend
+              class="PrivateNotchedOutline-legend-8"
+              style="width: 0.01px;"
+            >
+              <span>
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </label>
+    </div>
+    <div
+      class="MuiFormControl-root MuiFormControl-fullWidth"
+    >
+      <label
+        class="MuiFormLabel-root MuiFormLabel-filled"
+      >
+        <p
+          class="MuiTypography-root makeStyles-label-4 MuiTypography-body1"
+        >
+          Bathroom
+        </p>
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root makeStyles-input-3 MuiInputBase-fullWidth MuiInputBase-formControl"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiOutlinedInput-input"
+            id="bathroom"
+            placeholder="Enter number of bathrooms"
+            type="number"
+            value="2"
+          />
+          <fieldset
+            aria-hidden="true"
+            class="PrivateNotchedOutline-root-7 MuiOutlinedInput-notchedOutline"
+            style="padding-left: 8px;"
+          >
+            <legend
+              class="PrivateNotchedOutline-legend-8"
+              style="width: 0.01px;"
+            >
+              <span>
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </label>
+    </div>
+    <div
+      class="MuiFormControl-root MuiFormControl-fullWidth"
+    >
+      <label
+        class="MuiFormLabel-root MuiFormLabel-filled"
+      >
+        <p
+          class="MuiTypography-root makeStyles-label-4 MuiTypography-body1"
+        >
+          Description (Optional)
+        </p>
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root makeStyles-input-3 MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
+        >
+          <textarea
+            aria-invalid="false"
+            class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+            id="description"
+            placeholder="Enter description"
+            rows="1"
+            style="height: 0px; overflow: hidden;"
+          >
+            Lucky you to get the optional description here.
+          </textarea>
+          <textarea
+            aria-hidden="true"
+            class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+            readonly=""
+            style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); width: 100%;"
+            tabindex="-1"
+          />
+          <fieldset
+            aria-hidden="true"
+            class="PrivateNotchedOutline-root-7 MuiOutlinedInput-notchedOutline"
+            style="padding-left: 8px;"
+          >
+            <legend
+              class="PrivateNotchedOutline-legend-8"
+              style="width: 0.01px;"
+            >
+              <span>
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </label>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-1 makeStyles-submit-6 MuiButton-containedPrimary"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Submit
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;

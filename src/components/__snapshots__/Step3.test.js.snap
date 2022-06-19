@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Step2 Correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="makeStyles-step3-4"
+    id="step3"
+  >
+    <section
+      class="makeStyles-list-7"
+    />
+    <div
+      class="makeStyles-dragDrop-5"
+      role="presentation"
+      tabindex="0"
+    >
+      <input
+        accept="image/png,.png,.jpg,.jpeg,image/jpg,.png,.jpg,.jpeg"
+        multiple=""
+        style="display: none;"
+        tabindex="-1"
+        type="file"
+      />
+      <p>
+        Drag 'n' drop images here or Click below to select
+      </p>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-submitButton-1 MuiButton-containedPrimary"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Click to Select
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-2 MuiButton-containedPrimary Mui-disabled Mui-disabled"
+      disabled=""
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Submit
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
