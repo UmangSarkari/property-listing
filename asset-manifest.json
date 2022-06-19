@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/UmangSarkari/property-listing/static/css/main.0b4e74b4.css",
+    "main.js": "/UmangSarkari/property-listing/static/js/main.6e4c3a1c.js",
+    "static/js/787.b84f027c.chunk.js": "/UmangSarkari/property-listing/static/js/787.b84f027c.chunk.js",
+    "index.html": "/UmangSarkari/property-listing/index.html",
+    "main.0b4e74b4.css.map": "/UmangSarkari/property-listing/static/css/main.0b4e74b4.css.map",
+    "main.6e4c3a1c.js.map": "/UmangSarkari/property-listing/static/js/main.6e4c3a1c.js.map",
+    "787.b84f027c.chunk.js.map": "/UmangSarkari/property-listing/static/js/787.b84f027c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b4e74b4.css",
+    "static/js/main.6e4c3a1c.js"
+  ]
+}
