@@ -66,7 +66,7 @@ const Step1 = ({ setData, setStep2, setStep3 }) => {
           return;
         }
         const columns = Object.keys(parsedData[0]);
-        if (columns !== 4) {
+        if (columns.length !== 4) {
           setCsvError(STRINGS.CSV_COLUMNS);
           return;
         }
