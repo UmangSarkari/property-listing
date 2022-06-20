@@ -59,20 +59,20 @@ const Step1 = ({ setData, setStep2, setStep3 }) => {
       const reader = new FileReader();
 
       reader.onload = async ({ target }) => {
-        const csv = PapaParse.parse(target.result, { header: true });
+        const csv = PapaParse.parse(target.result, { header: false });
         const parsedData = csv?.data;
         if (!parsedData || !parsedData.length) {
           setCsvError(STRINGS.NO_DATA_CSV);
           return;
         }
-        const columns = Object.keys(parsedData[0]);
+        const columns = parsedData[0];
         if (columns.length !== 4) {
           setCsvError(STRINGS.CSV_COLUMNS);
           return;
         }
         let [address, bedroom, bathroom, description] = columns;
-        bedroom = typeof bedroom === "number" ? bedroom : 0;
-        bathroom = typeof bathroom === "number" ? bathroom : 0;
+        bedroom = Number.isNaN(Number(bedroom)) ? 0 : Number(bedroom);
+        bathroom = Number.isNaN(Number(bathroom)) ? 0 : Number(bathroom);
         setData({ address, bedroom, bathroom, description });
         setStep2(true);
       };
